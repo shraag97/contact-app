@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-color: red;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+.logout-btn-box{
+    background-color: blue;
+   
+}
+ 
+.contact-list-box
+{
+    background-color: aquamarine;
+    height:85vb;
+    overflow-y: scroll;
+}
+.contact-list-box .user-icon i
+{
+    font-size: 70px;
+}
+.accordion .accordion-item
+{
+    box-shadow: none !important;
+    border: none;
+    font-size: 22px;
+    color: inherit !important;
+}
+.accordion i
+{
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+
+.option-box
+{
+    padding: 5px;
+    border: 1px solid rgb(243, 225, 225);
+    display: none;
+    right: -60px;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    box-shadow: 5cap;
+    background-color: rgb(243, 238, 247); 
+    
+    
+    
+}
+.accord-div .fa-square-phone
+{
+    color: green;
+}
+.accord-div .fa-message{
+    color: rgb(68, 115, 245);
+}
+.opt-btn
+{
+    display: flex;
+    right: -10px;
+    position: absolute;
+    /* background-color: aqua; */
+    width: 15px;
+    padding-left: 4px;
+    
+}
+
+.btn-box Button.create-btn{
+background-color: blueviolet;
+}
+/* .accordion .create-btn .edit-btn{
+    background-color: rgb(241, 202, 95);
+    margin-left: 150px;
+    } */
+
+.row .logout-btn-box
+{
+    position:absolute;
+    
+    right: 0;
+    margin-right: 0px;
+    
+}
+.row .logout-btn-box .logout-btn
+{
+    width: 150px;
+    background-color: chocolate;
+    color: bisque;
+    font-weight: bold;
+    box-shadow: 1ch;
+}
+.illegal{
+    background-color: black;
+    color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illegal h1{
+    font-size: 65px;
+}
